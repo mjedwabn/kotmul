@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/kotlin/common/main/
+/build/classes/kotlin/wasm32/main/klib/
