@@ -22,6 +22,7 @@ kotlin {
             executable()
         }
     }
+    js("js").browser()
 
     sourceSets {
         commonMain {
@@ -30,6 +31,9 @@ kotlin {
             }
         }
         wasm32Main {
+        }
+
+        jsMain {
         }
     }
 }

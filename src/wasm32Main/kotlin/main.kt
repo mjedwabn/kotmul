@@ -1,4 +1,4 @@
-fun sayHi(number: Long): String {
+fun sayHi(number: Int): String {
     val msg = CommonHello().sayHi(number)
     println("sayHi -> $msg")
     return msg

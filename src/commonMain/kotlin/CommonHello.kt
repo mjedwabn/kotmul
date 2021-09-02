@@ -1,7 +1,5 @@
-import kotlin.Long
-
 class CommonHello {
-    fun sayHi(number: Long): String {
+    fun sayHi(number: Int): String {
         return "Hi $number"
     }
 }
